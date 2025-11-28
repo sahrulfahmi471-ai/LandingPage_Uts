@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak – Sahrul Fahmi</title>
+   <link rel="stylesheet" href="css/Style-Kontak.css">
+
+
+    <!-- ICON -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <h2 class="logo">Sahrul<span>Fahmi</span></h2>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="profil.html">Profil</a>
+            <a href="portofolio.html">Portofolio</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- JUDUL -->
+    <section class="title-section">
+        <h1>Hubungi Saya</h1>
+        <p>Silakan kirim pesan, saran, atau kerja sama melalui form di bawah ini.</p>
+    </section>
+
+    <!-- CONTACT WRAPPER -->
+    <div class="container">
+
+        <!-- INFO KIRI -->
+        <div class="info-card">
+            <h3>Informasi Kontak</h3>
+
+            <p><strong>Email:</strong> 
+                <a href="mailto:sahrulfahmi471@gmail.com">sahrulfahmi471@gmail.com</a>
+            </p>
+
+            <p><strong>WhatsApp:</strong> 
+                <a href="https://wa.me/6285718303846" target="_blank">085718303846</a>
+            </p>
+
+            <p><strong>Lokasi:</strong> 
+                <a href="https://www.google.com/maps/search/Indonesia" target="_blank">Indonesia</a>
+            </p>
+
+            <!-- SOCIAL ICONS -->
+            <div class="social-icons">
+                <a href="#"><i data-feather="facebook"></i></a>
+                <a href="#"><i data-feather="instagram"></i></a>
+                <a href="#"><i data-feather="github"></i></a>
+            </div>
+        </div>
+
+        <!-- FORM KANAN -->
+        <div class="form-card">
+            <h3>Kirim Pesan</h3>
+
+            <form action="https://formsubmit.co/sahrulfahmi471@gmail.com" method="POST">
+
+                <!-- REMOVE CAPTCHA -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <label>Nama Lengkap</label>
+                <input type="text" name="nama" placeholder="Nama Anda" required>
+
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Email Anda" required>
+
+                <label>Pesan</label>
+                <textarea name="pesan" placeholder="Tulis pesan..." required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+</html>

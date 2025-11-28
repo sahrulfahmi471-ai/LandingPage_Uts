@@ -1,0 +1,22 @@
+Landing Page - Uts Pemogramman
+
+Hey, I'm Sahrul 👋
+Indonesian student who loves learning, exploring, and creating.
+
+🌱 Currently Learning
+- Front-end basics (HTML, CSS)
+- UI/UX fundamentals
+
+ 🚀 Projects
+- Landing Page UTS
+
+ Features
+- Full HTML + CSS
+- Responsive layout
+
+ 📫 Reach Me
+- Instagram: @rulieth
+- facebook: @arrul
+
+Author
+Sahrul Fahmi – MI1624

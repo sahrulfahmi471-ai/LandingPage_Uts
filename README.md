@@ -4,9 +4,8 @@ Hey, I'm Sahrul 👋
 Indonesian student who loves learning, exploring, and creating.
 
 🌱 Currently Learning
-- Front-end basics (HTML, CSS)
-- UI/UX fundamentals
-
+- basics (HTML, CSS)
+- 
  🚀 Projects
 - Landing Page UTS
 
